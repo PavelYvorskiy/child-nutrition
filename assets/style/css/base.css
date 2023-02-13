@@ -159,12 +159,12 @@ p {
 }
 @media (max-width: 767px) {
   p {
-    font-size: calc(14px + 6.8 * ((100vw - 320px) / 1280));
+    font-size: calc(12px + 6.8 * ((100vw - 320px) / 1280));
   }
 }
 @media (min-width: 767px) {
   p {
-    font-size: calc(14px + 4 * (100vw / 1280));
+    font-size: calc(12px + 4 * (100vw / 1280));
   }
 }
 

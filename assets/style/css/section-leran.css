@@ -1,0 +1,14 @@
+.section-learn {
+  background: var(--light-green);
+}
+
+.learn-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 80px 0 20px;
+}
+
+/*# sourceMappingURL=section-leran.css.map */

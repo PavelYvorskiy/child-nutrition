@@ -116,7 +116,7 @@ h6{
   @include adaptive-font(18,16 )
 }
 p{
-  @include adaptive-font(18,14 );
+  @include adaptive-font(16,12 );
   color: var(--gray);
   font-weight: 400;
 }
