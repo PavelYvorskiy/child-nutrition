@@ -31,7 +31,7 @@
 }
 @media (max-width: 480px) {
   .header-container {
-    padding: 23px 30px;
+    padding: 23px 20px;
   }
 }
 @media (max-width: 360px) {
