@@ -111,12 +111,12 @@ section {
 
 @media (max-width: 767px) {
   h3 {
-    font-size: calc(18px + 23.8 * ((100vw - 320px) / 1280));
+    font-size: calc(12px + 17 * ((100vw - 320px) / 1280));
   }
 }
 @media (min-width: 767px) {
   h3 {
-    font-size: calc(18px + 14 * (100vw / 1280));
+    font-size: calc(12px + 10 * (100vw / 1280));
   }
 }
 
