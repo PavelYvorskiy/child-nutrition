@@ -53,6 +53,10 @@
   font-weight: 500;
   color: var(--green);
 }
+.container-title p {
+  line-height: 1.3;
+  font-weight: 400;
+}
 .container-title div {
   border: 1px solid var(--green);
   border-radius: 80px;
