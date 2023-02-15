@@ -21,7 +21,7 @@
   background: #FFFFFF;
   border: 1px solid #E6E6E6;
   box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.07);
-  border-radius: 40px;
+  border-radius: 20px;
   margin-top: 60px;
   overflow: hidden;
 }
@@ -96,7 +96,6 @@
 @media (max-width: 768px) {
   .programs-content-box {
     flex-direction: column;
-    border-radius: 20px;
   }
   .programs-content-item {
     width: 100%;

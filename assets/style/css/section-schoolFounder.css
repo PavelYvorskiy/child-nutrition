@@ -36,8 +36,8 @@
 
 .schoolFounder-list {
   width: 100%;
-  padding: 0 50px;
-  margin-top: 50px;
+  padding: 20px 50px;
+  margin-top: 20px;
 }
 .schoolFounder-list__item {
   position: relative;
@@ -71,7 +71,7 @@
   background: #FFFFFF;
   border: 1px solid #E6E6E6;
   box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.07);
-  border-radius: 40px;
+  border-radius: 20px;
   transform: translateY(-90px);
   overflow: hidden;
 }
@@ -104,8 +104,26 @@
     width: 100%;
     align-items: center;
   }
-  .schoolFounder-content-certificate {
-    border-radius: 20px;
+  .schoolFounder-item__img {
+    padding-top: 0;
+  }
+  .schoolFounder-item .container-title {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .schoolFounder-list__item::before {
+    content: url(../../svg/marker2.svg);
+    width: 22px;
+    height: 22px;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    border: 1px solid var(--light-green);
   }
 }
 
