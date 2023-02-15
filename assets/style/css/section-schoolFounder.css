@@ -76,13 +76,6 @@
   overflow: hidden;
 }
 
-.certificate-blosk {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .certificate-blosk-item {
   width: auto;
   height: 100%;
