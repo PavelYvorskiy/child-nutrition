@@ -16,7 +16,8 @@ const swiper = new Swiper(".mySwiper", {
   var swiper2 = new Swiper(".mySwiper2", {
     spaceBetween: 30,
     slidesPerView: 2,
-    centeredSlides: true,
+    // centeredSlides: true,
+    autoHeight: true,
     loop:true,
     autoplay: {
       delay: 2500,
@@ -38,6 +39,10 @@ const swiper = new Swiper(".mySwiper", {
       768: {
         slidesPerView: 4,
         spaceBetween: 40
-      }
+      },
+      1000: {
+        slidesPerView: 5,
+        spaceBetween: 40
+      },
     }
   });
