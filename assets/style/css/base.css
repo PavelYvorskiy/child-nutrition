@@ -79,9 +79,6 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
-body.active {
-  overflow-y: hidden;
-}
 
 section {
   width: 100%;

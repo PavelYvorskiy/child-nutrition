@@ -31,6 +31,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .container-title{
     max-width: 710px;

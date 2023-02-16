@@ -89,9 +89,6 @@ body {
   position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
-  &.active{
-    overflow-y: hidden;
-  }
 }
 section{
   width: 100%
