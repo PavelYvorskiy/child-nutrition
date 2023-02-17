@@ -62,7 +62,7 @@
 .programs-content-description p b, .programs-content-description span b {
   font-weight: 500;
 }
-.programs-content-description button {
+.programs-content-description a {
   max-width: 200px;
   margin-top: 40px;
 }
