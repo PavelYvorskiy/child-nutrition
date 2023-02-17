@@ -11,6 +11,12 @@ const swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     dynamicBullets: false,
   },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+  }
   });
 
   var swiper2 = new Swiper(".mySwiper2", {
