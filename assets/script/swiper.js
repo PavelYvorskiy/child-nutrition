@@ -16,11 +16,11 @@ const swiper = new Swiper(".mySwiper", {
   var swiper2 = new Swiper(".mySwiper2", {
     spaceBetween: 30,
     slidesPerView: 2,
-    // centeredSlides: true,
+    speed:3000,
     autoHeight: true,
     loop:true,
     autoplay: {
-      delay: 2500,
+      delay: 2000,
       disableOnInteraction: false,
     },
     pagination: {
