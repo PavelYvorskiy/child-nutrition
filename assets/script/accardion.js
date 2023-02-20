@@ -19,18 +19,29 @@ class Accordion {
       this.items[this.activeItem].classList.add(this.activeClass)
     }
   }
-  const handleItem = (itemIndex) =>{
-    return()=>{
-       btnActiveAccordion.changeActiveItem(itemIndex)
-       visibleListAccordion.changeActiveItem(itemIndex)
-    }
+  function accordionHandler() {
+    const handlerItem = (itemIndex) => {
+      return () => {
+        btnAccordionItem.changeActiveItem(itemIndex);
+        visibleAccordionItem.changeActiveItem(itemIndex);
+      };
+    };
+    const btnActiveItem = document.querySelectorAll(
+      ".desktop-list-item"
+    );
+    const visibleActiveItem = document.querySelectorAll(
+      ".desktop-content-block-item"
+    );
+  
+    const btnAccordionItem = new Accordion(btnActiveItem, "active", 0);
+    const visibleAccordionItem = new Accordion(visibleActiveItem, "active", 0);
+  
+    btnActiveItem.forEach((item, index) => {
+      item.addEventListener("click", handlerItem(index));
+    });
   }
-  const btnActive   = document.querySelectorAll('.desktop-list-item')
-  const visibleList     = document.querySelectorAll('.desktop-content-block-item')
-
-  const btnActiveAccordion = new Accordion(btnActive , 'active',0)
-  const visibleListAccordion   = new Accordion(visibleList ,'active',0)
-
-  btnActive.forEach((item,index) =>{
-    item.addEventListener('click',handleItem(index))
-  })
+  
+  const visibleContent = document.querySelector(".visibleContent");
+  if (visibleContent) {
+    accordionHandler();
+  }
